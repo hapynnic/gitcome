@@ -1,0 +1,30 @@
+﻿{
+  "name": "gitcome",
+  "description": "gitcome",
+  "keywords": [
+    "gitcome"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议vless或vmess，请填写小写的vless或vmess",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/hapynnic/gitcome",
+  "repository": "https://github.com/hapynnic/gitcome",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
